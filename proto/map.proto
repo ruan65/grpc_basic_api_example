@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proto;
+
+message Person {
+    string name = 1;
+    int64 age = 2;
+}
+
+message Dictionary {
+    map<string, string> pairs = 1;
+}
+
+message Devices {
+    map<string, string> devicesMap = 1;
+
+}

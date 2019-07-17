@@ -1,4 +1,4 @@
-import 'package:basic_api/proto/generated/lib/proto/service.pbgrpc.dart';
+import 'package:basic_api/generated/service.pbgrpc.dart';
 import 'package:fixnum/fixnum.dart';
 import 'package:grpc/grpc.dart' as grpc;
 
